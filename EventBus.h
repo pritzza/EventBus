@@ -2,8 +2,8 @@
 #include <typeindex>
 #include <vector>
 
-// All specific events should inhert from this generic Event class
-struct Event {};
+// All specific events must inhert from this generic Event class
+struct Event;
 
 // Source:
 // https://medium.com/@savas/nomad-game-engine-part-7-the-event-system-45a809ccb68f

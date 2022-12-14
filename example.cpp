@@ -10,7 +10,9 @@ constexpr std::string_view typeName(const T& t)
     return typeid(t).name();
 }
 
-// Events must inherit from Event base class
+// All events must inherit from class called "Event"
+struct Event{};
+
 struct EventA : public Event
 {
     int foo = 111;
